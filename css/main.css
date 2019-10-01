@@ -137,18 +137,10 @@ section {
   padding: 0;
 }
 
-.lab-navabr {
-  padding: 20px 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-
-.navbar-nav > .active > a,
-.navbar-nav > .active > a:focus,
-.navbar-nav > .active > a:hover {
+.active,
+.active > a,
+.active > a:focus,
+.active > a:hover {
   background-color: #6d60ff;
   color: white;
 }
@@ -180,8 +172,27 @@ input[type=submit] {
 }
 
 #formfield{
-  margin: 0px 0px 0px 300px;
+  margin-left: 20%;
 }
+
+#newsletter p {
+  font-size: 34px;
+  font-family: "BwModelica";
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.471;
+}
+#newsletter span {
+  font-size: 12px;
+  font-family: "BwModelica";
+  color: black;
+  text-transform: uppercase;
+  line-height: 2.5;
+  text-align: center;
+}
+
+
 input[type=text]{
   margin: 4px 0px;
 }
