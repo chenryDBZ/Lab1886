@@ -7,5 +7,8 @@ $(document).ready(function(){
   });
 });
 
+$(document).ready(function() {
+  $("#lightSlider").lightSlider();
+});
 
 //$(".navbar ul").css({border: "3px solid"});
