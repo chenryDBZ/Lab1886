@@ -1,6 +1,11 @@
-$(document).ready(function(){
-  $(".navbar li").click(function(){
-    $(".navbar li").removeClass('active');
+$(function(){
+  let selector = ".navbar-nav li";
+
+  $(selector).on('click', function(){
+    $(selector).removeClass('active');
     $(this).addClass('active');
   });
+  // $(selector).css({border: "3px solid"});
 });
+
+
