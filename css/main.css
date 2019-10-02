@@ -307,6 +307,32 @@ input[type=text]{
   line-height: 2.333;
 }
 
+.myline{
+  width: 150px;
+  height: 5px;
+  margin: auto;
+  border: 1px  #000000;
+}
+.line1 {
+  background-image: -moz-linear-gradient( 0deg, rgb(136,101,221) 1%, rgb(207,94,210) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(136,101,221) 1%, rgb(207,94,210) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(136,101,221) 1%, rgb(207,94,210) 100%);
+}
+.line2{
+  width: 125px;
+  background-image: -moz-linear-gradient( 0deg, rgb(128,109,250) 1%, rgb(110,242,225) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(128,109,250) 1%, rgb(110,242,225) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(128,109,250) 1%, rgb(110,242,225) 100%);
+}
+.line3{
+  width: 225px;
+  background-image: -moz-linear-gradient( 0deg, rgb(255,67,203) 1%, rgb(254,183,121) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(255,67,203) 1%, rgb(254,183,121) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(255,67,203) 1%, rgb(254,183,121) 100%);
+}
+
+
+
 .hidden {
   display: none !important;
 }
