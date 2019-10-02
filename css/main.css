@@ -143,6 +143,7 @@ section {
 .active > a:hover {
   background-color: #6d60ff;
   color: white;
+  text-emphasis-color: white;
 }
 
 .lab-section,
@@ -331,7 +332,17 @@ input[type=text]{
   background-image: -ms-linear-gradient( 0deg, rgb(255,67,203) 1%, rgb(254,183,121) 100%);
 }
 
-
+#footmenu{
+  text-emphasis: white;
+  margin: auto auto auto 600px;
+  float: right;
+}
+#footmenu li{
+  padding: 300px auto;
+}
+#footlogo{
+  margin-left: 100px;
+}
 
 .hidden {
   display: none !important;
